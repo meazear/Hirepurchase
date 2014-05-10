@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="com.hirepurchase.model.CardType"></mapping>
+        <mapping class="com.hirepurchase.model.IdGenerator"></mapping>
+        <mapping class="com.hirepurchase.model.UserProfile"></mapping>
+        <mapping class="com.hirepurchase.model.FineType"></mapping>
+        <mapping class="com.hirepurchase.model.DebtFollowupType"></mapping>
+        <mapping class="com.hirepurchase.model.VehicleBrand"></mapping>
+        <mapping class="com.hirepurchase.model.VehicleType"></mapping>        
+    </session-factory>
+</hibernate-configuration>
