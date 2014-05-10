@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2014, 11:10:15 PM
+    Author     : Administrator
+*/
+
+#modal {
+    width:800px;
+    height:300px;
+    padding:8px;
+ 
+    background: #FFF;
+    //background: rgba(255, 255, 255, 0.3);
+    
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+ 
+    position:absolute !important;
+    top:100% !important;
+    left:10% !important;
+    margin-top:-94px !important;
+    margin-left:-180px !important;
+    z-index:101;
+}
+.reveal-modal-bg { 
+    position: fixed; 
+    height: 100%;
+    width: 100%;
+    //background: #000;
+    background: rgba(0,0,0,.4);
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0; 
+}
